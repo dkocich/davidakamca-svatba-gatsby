@@ -1,12 +1,14 @@
 import * as React from "react";
 import { PageProps } from "gatsby";
 import {Scripts} from "../cmp/Scripts";
+import {MySharedHeader} from "../cmp/MySharedHeader";
 
 // markup
 const KontaktPage = (props: PageProps) => {
   return (
-    <main>
-      <div className="fh5co-loader" />
+    <div>
+      <MySharedHeader/>
+      {/*<div className="fh5co-loader" />*/}
 
       <div id="page">
         <nav className="fh5co-nav" role="navigation">
@@ -74,7 +76,7 @@ const KontaktPage = (props: PageProps) => {
           id="fh5co-header"
           className="fh5co-cover fh5co-cover-sm"
           role="banner"
-          // style="background-image:url(images/img_bg_1.jpg);"
+          style={{ backgroundImage: "url(images/img_bg_1.jpg)" }}
         >
           <div className="overlay" />
           <div className="fh5co-container">
@@ -304,7 +306,7 @@ const KontaktPage = (props: PageProps) => {
       </div>
 
       <Scripts/>
-    </main>
+    </div>
   );
 };
 
