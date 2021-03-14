@@ -30,7 +30,10 @@ export function Scripts(props: Props) {
                     integrity="sha512-PNXCBnFH9wShbV+mYnrfo0Gf3iSREgBWmYAoMIfc+Z83vVq3Nu4yxBk6j+BZ40ZIhtW3WlTQdBvW3AYLAnlgpA=="
                     crossOrigin="anonymous"/>
 
-            <script src="js/jquery.magnific-popup.min.js"/>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+                    integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+                    crossOrigin="anonymous"/>
+
             <script src="js/magnific-popup-options.js"/>
 
             <script
