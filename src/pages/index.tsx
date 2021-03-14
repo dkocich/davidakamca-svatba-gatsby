@@ -1,4 +1,5 @@
 import * as React from "react"
+import {PageProps} from "gatsby";
 
 // styles
 const pageStyles = {
@@ -126,7 +127,7 @@ const links = [
 ]
 
 // markup
-const IndexPage = () => {
+const IndexPage = (props: PageProps) => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>

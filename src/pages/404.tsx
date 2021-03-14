@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import {Link, PageProps} from "gatsby"
 
 // styles
 const pageStyles = {
@@ -25,7 +25,7 @@ const codeStyles = {
 }
 
 // markup
-const NotFoundPage = () => {
+const NotFoundPage = (props: PageProps) => {
   return (
     <main style={pageStyles}>
       <title>Not found</title>
