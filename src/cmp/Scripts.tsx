@@ -20,7 +20,8 @@ export function Scripts(props: Props) {
 
                 <script src="js/jquery.countTo.js"/>
 
-                <script src="js/jquery.stellar.min.js"/>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"/>
+
 
                 <script src="js/jquery.magnific-popup.min.js"/>
                 <script src="js/magnific-popup-options.js"/>
