@@ -45,6 +45,19 @@
     "@types/react-dom": "^17.0.2",
     "@types/react-helmet": "^6.1.0",
     "@types/sass": "^1.16.0",
-    "cross-env": "^7.0.3"
+    "@typescript-eslint/eslint-plugin": "4.16.1",
+    "@typescript-eslint/parser": "4.16.1",
+    "babel-eslint": "10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "7.21.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-config-react-app": "6.0.0",
+    "eslint-nibble": "6.1.0",
+    "eslint-plugin-flowtype": "5.3.1",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-you-dont-need-momentjs": "1.6.0"
   }
 }
