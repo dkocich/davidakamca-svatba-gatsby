@@ -9,18 +9,18 @@ export function MySharedHeader(props: Props) {
         <Helmet>
             <meta charSet="utf-8"/>
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-            <title>Wedding &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+            <title>Svatba - David a Kamča</title>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
-            <meta name="description" content="Free HTML5 Template by FREEHTML5.CO"/>
+            <meta name="description" content="Svatební web Davida a Kamči"/>
             <meta name="keywords"
-                  content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive"/>
-            <meta name="author" content="FREEHTML5.CO"/>
+                  content="svatba, oslava, sňatek"/>
+            <meta name="author" content="David"/>
 
             <meta property="og:title" content=""/>
             <meta property="og:image" content=""/>
             <meta property="og:url" content=""/>
             <meta property="og:site_name" content=""/>
-            <meta property="og:description" content=""/>
+            <meta property="og:description" content="Svatební web Davida a Kamči"/>
             <meta name="twitter:title" content=""/>
             <meta name="twitter:image" content=""/>
             <meta name="twitter:url" content=""/>
