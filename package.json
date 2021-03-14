@@ -8,13 +8,21 @@
     "gatsby"
   ],
   "scripts": {
-    "build": "gatsby build",
+    "analyze:sme": "npx source-map-explorer 'build/static/js/*.js'",
+    "analyze:wba": "npx webpack-bundle-analyzer build/bundle-stats.json",
+    "build": "cross-env REACT_APP_VERSION=$npm_package_version REACT_APP_NAME=$npm_package_name gatsby build",
+    "build:cypress": "cross-env CYPRESS_SUPPORT=y npm run build",
+    "buildWithStats": "npm run build -- --stats",
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y npm run develop",
-    "build:cypress": "cross-env CYPRESS_SUPPORT=y npm run build",
-    "start": "gatsby develop",
+    "eslint": "eslint --ext .jsx,.js,.ts,.tsx src",
+    "eslint:fix": "eslint --ext .jsx,.js,.ts,.tsx src --fix",
+    "nibble": "eslint-nibble --ext .jsx,.js,.ts,.tsx src",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "start": "gatsby develop",
+    "test": "react-scripts test",
+    "test:full": "npm run lint:eslint && npm run test"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
