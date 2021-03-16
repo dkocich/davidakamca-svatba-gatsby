@@ -1,6 +1,6 @@
 import * as React from "react";
 import { PageProps } from "gatsby";
-import {Scripts} from "../cmp/Scripts";
+import {MyScripts} from "../cmp/MyScripts";
 import {MySharedHeader} from "../cmp/MySharedHeader";
 import {MyNav} from "../cmp/MyNav";
 
@@ -247,7 +247,7 @@ const KontaktPage = (props: PageProps) => {
         </a>
       </div>
 
-      <Scripts/>
+      <MyScripts/>
     </div>
   );
 };
