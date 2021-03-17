@@ -52,7 +52,7 @@
     "@types/eslint-plugin-prettier": "3.1.0",
     "@types/jquery-countto": "1.2.0",
     "@types/mdx-js__react": "^1.5.3",
-    "@types/owlcarousel": "1.3.3",
+    "@types/owlcarousel": "1.3.4",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.2",
     "@types/react-helmet": "^6.1.0",
